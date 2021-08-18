@@ -31,9 +31,10 @@ function App() {
     <div>
       <Header />
       <Parallax />
-      <ProjectBlock />
-      <Parallax />
-      <ProjectBlock />
+      <Carousel items={[ 
+        <CarouselItem title="Contact Keeper" tags={["JavaScript", "HTML", "CSS", "React", "MERN"]} description="A full-stack application built using React and Express."/>, 
+        <CarouselItem title="IT Logger" tags={["JavaScript", "HTML", "CSS", "React", "Redux", "Materialize"]} description="A full-stack application built using React, Redux, and Express."/>
+      ]}/>
       <Parallax />
 
     </div>
