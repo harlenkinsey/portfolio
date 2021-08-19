@@ -1,24 +1,21 @@
 import React, { useEffect } from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
-import background from '../images/background-image-2.png';
 
 const Carousel = ({ items }) => {
 
     const carouselItems = items.map( item => 
-            <li>{item}</li>
+            <li key={item.props.title} >{item}</li>
     );
 
     useEffect(() => {
         let element = document.querySelectorAll(".carousel");
-        M.Carousel.init(element);
+        M.Carousel.init(element, {indicators: true, shift: 30});
     }, []);
- // style={{backgroundImage: `url(${background})`}}
+
     return (
-        <div className="black"> 
-            <div className="carousel">
+            <div className="carousel center">
                 <ul>{carouselItems}</ul>
             </div>
-        </div>
     )
 }
 
