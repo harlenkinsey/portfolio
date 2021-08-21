@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Carousel from './Carousel';
 import CarouselItem from './CarouselItem';
+import Copyright from './Copyright';
 
 import M from 'materialize-css/dist/js/materialize.js';
 
@@ -18,6 +19,8 @@ const Background = () => {
                 <CarouselItem title='Github Finder' tags={['JavaScript', 'HTML', 'CSS', 'React', 'Redux', 'Materialize']} description='A full-stack application built using React, Redux, and Express.' link='https://githubfinder901237.netlify.app'/>,
                 <CarouselItem title='Star Destroyer' tags={['Android', 'Godot', 'GDScript', 'Python']} description='A small 2D game built with Godot for Android.' link='https://play.google.com/store/apps/details?id=com.lonepixel.studios&hl=en_US'/>
             ]}/>
+
+            {window.innerWidth > 700 && <Copyright textColor='white-text'/>}
         </div>
     )
 }
