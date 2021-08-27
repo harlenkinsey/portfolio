@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
-import Background from './components/Background';
+import CardContainer from './components/CardContainer';
 import SocialMediaButtons from './components/SocialMediaButtons';
 import Copyright from './components/Copyright';
 
@@ -31,7 +31,7 @@ function App() {
 
       {window.innerWidth > 700 && <SocialMediaButtons />}
       <Header />
-      <Background />
+      <CardContainer />
       {window.innerWidth < 700 && <SocialMediaButtons />}      
       {window.innerWidth < 700 && <Copyright />}      
       
