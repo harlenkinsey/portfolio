@@ -2,14 +2,7 @@ import React, { useEffect } from 'react';
 import ProjectCard from './ProjectCard';
 import Copyright from './Copyright';
 
-import M from 'materialize-css/dist/js/materialize.min.js';
-
 const CardContainer = () => {
-
-    useEffect(() => {
-        M.toast({html: 'Welcome!', classes: 'black white-text border'});
-        M.toast({html: 'You can swipe or drag to get to the next card.', classes: 'black white-text border'});
-    }, []);
 
     return (
         <div className='background'>
