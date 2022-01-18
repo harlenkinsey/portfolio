@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='row'>
             <div className='col s12'>
-                <h3 className='center-align'><span className='highlight'>Hello;</span></h3>
+                <h3 className='center-align'><span className='highlight'>Blog;</span></h3>
             </div>
         </div>
     )
