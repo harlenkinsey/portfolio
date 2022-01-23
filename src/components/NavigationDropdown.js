@@ -11,7 +11,7 @@ const NavigationDropdown = () => {
 
     return (
         <div>
-            <a href='#' className='btn waves-effect waves-light black'>
+            <a href='#' className='btn waves-effect waves-light black' >
                <FontAwesomeIcon icon={faBars} />
             </a>
         </div>

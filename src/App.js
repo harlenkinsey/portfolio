@@ -3,6 +3,7 @@ import Header from './components/Header';
 import CardContainer from './components/CardContainer';
 import SocialMediaButtons from './components/SocialMediaButtons';
 import Copyright from './components/Copyright';
+import NavigationDropdown from './components/NavigationDropdown';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import './App.css';
