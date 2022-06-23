@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import CardContainer from './components/CardContainer';
-import SocialMediaButtons from './components/SocialMediaButtons';
 import Copyright from './components/Copyright';
 
 import 'materialize-css/dist/css/materialize.min.css';
@@ -29,10 +28,8 @@ function App() {
   return (
     <div>
 
-      {window.innerWidth > 700 && <SocialMediaButtons />}
       <Header />
-      <CardContainer />
-      {window.innerWidth < 700 && <SocialMediaButtons />}      
+      <CardContainer />     
       {window.innerWidth < 700 && <Copyright />}      
       
     </div>
