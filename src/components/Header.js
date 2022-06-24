@@ -16,7 +16,7 @@ const Header = () => {
                                 <h3><span className='highlight'>Portfolio;</span></h3>
                             </li>
                             <li className='blog-button'>
-                                <a href='blog.harlenkinsey.com' className='btn-floating btn-large waves-effect waves-light white'><i className='fas fa-rocket black'></i></a>
+                                <a href='https://blog.harlenkinsey.com' className='btn-floating btn-large waves-effect waves-light white'><i className='fas fa-rocket black'></i></a>
                             </li>
                         </div>
                     </div>
