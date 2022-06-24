@@ -4,7 +4,7 @@
 
 .background {
   width: 100%;
-  padding: 100px 0px 50px 0px;
+  padding: 100px 0px 100px 0px;
   background-image: url('./images/space-backing.png');
 }
 
@@ -112,7 +112,7 @@ ul {
 
   .background {
     width: 100%;
-    padding: 200px 0px 25px 0px;
+    padding: 100px 0px 100px 0px;
     background-image: url('./images/space-backing.png');
   }
 
@@ -125,7 +125,7 @@ ul {
 
   .background {
     width: 100%;
-    padding: 200px 0px 25px 0px;
+    padding: 100px 0px 100px 0px;
     background-image: url('./images/space-backing.png');
   }
 
