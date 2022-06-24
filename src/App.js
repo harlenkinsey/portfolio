@@ -1,38 +1,28 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import CardContainer from './components/CardContainer';
+import Home from './pages/Home';
+import Post1 from './pages/Post1';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 import 'materialize-css/dist/css/materialize.min.css';
 import './App.css';
 
 function App() {
 
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth
-  });
-
-  const handleResize = () => {
-    setDimensions({
-      height: window.innerHeight,
-      width: window.innerWidth
-    });
-  };
-
-  useEffect(() => {
-    window.addEventListener('resize', handleResize)
-    return () => { window.removeEventListener('resize', handleResize) }
-  });
-
   return (
-    <div>
-      
-      <Header />
-      <CardContainer />
-      <Footer />     
-      
-    </div>
+
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/hello-world' element={<Post1/>}/>
+      </Routes>
+    </Router>
+
   );
 }
 
