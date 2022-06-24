@@ -1,27 +1,21 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, tags, link }) => {
-
-    const tagsList = tags.map((tag) => 
-        
-        <li key={tag} className='tag'>
-            
-            <a className='waves-effect waves-light btn'>
-                {tag}
-            </a>
-
-        </li>
-        );
+const ProjectCard = ({ title, description, link }) => {
 
     return (
-        <div className='card white center'>
-            <div className='card-content black-text'>
-                <span className='card-title'>{title}</span>
-                <p>{description}</p>
-                <h5>Tags</h5>
-                <ul>{tagsList}</ul>
-                <h5>Links</h5>
-                <a href={link} target='_blank' className='waves-effect waves-light blue btn-large'>{title} {' '}<i className='fas fa-rocket'></i></a>
+        <div className='card black center'>
+            <div className='card-content white-text'>
+
+                <div className='row project-card-header valign-wrapper'>
+                    <div className='col s8'>
+                        <span className='card-title'>{title}</span>
+                    </div>
+                    <div className='col s4'>
+                        <a href={link} className='btn-floating btn-large waves-effect waves-light white'><i className='fas fa-rocket black'></i></a>
+                    </div>
+                </div>
+                <p className='project-card-description'>{description}</p>
+                
             </div>
         </div>
     )
