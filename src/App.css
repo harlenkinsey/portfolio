@@ -13,6 +13,32 @@
   padding: 20px;
 }
 
+.border {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-bottom {
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+}
+
+.border-round {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.border-top {
+  border-top-color: white;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
 .card {
   margin: 50px 0px 0px 0px;
   border-color: white;
@@ -92,6 +118,19 @@
 }
 
 .post-card-header {
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+}
+
+.post-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.post-header {
   border-bottom-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
