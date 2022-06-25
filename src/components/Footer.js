@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 const Footer = () => {
     return (
@@ -12,5 +12,6 @@ const Footer = () => {
         </div>
     )
 }
+
 
 export default Footer
