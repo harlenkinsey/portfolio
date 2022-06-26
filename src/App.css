@@ -8,6 +8,10 @@
   background-image: url('./images/space-backing.png');
 }
 
+.background-black {
+  background-color: black;
+}
+
 .blog-button {
   display: inline-block;
   padding: 20px;
@@ -126,8 +130,8 @@
 
 .post-container {
   width: 80%;
-  margin: auto;
   padding: 20px;
+  margin: auto;
 }
 
 .post-header {

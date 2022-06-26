@@ -8,7 +8,12 @@ const Post1 = () => {
     return (
         <div>
             <Header />
-            <Post sections={['asdf', 'asfdf', 'asdfsas']} />
+            <Post 
+                title='Hello World!' 
+                date='June 24, 2022' 
+                update='June 25, 2022'
+                sections={['asdf', 'asfdf', 'asdfsas']} 
+                texts={['i knew the perc was fake', 'but i still ate it', 'cuz imma grimlin']} />
             <Footer />
         </div>
     )
