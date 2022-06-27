@@ -5,19 +5,41 @@ const Post = ({ title, date, update, sections, texts }) => {
     return (
         <div className='background'>
             <div className='post-container'>
-                <div className='row white-text border-round center-align background-black'>
+                <div className='row section-wrapper'>
                     <h1>{title}</h1>
-                </div>
-                <div style={{padding:'20px 0px'}} className='row'>
-                    <div className='col s4 white-text border-round background-black'>
-                        <p>{date}</p>
-                        <p>{update}</p>
+                    <div className='row border-top'>
+                        <div className='col s6'>
+                            <p>{date}</p>
+                        </div>
+                        <div className='col s6'>
+                            <p>Updated: {update}</p>
+                        </div>
                     </div>
-                    <div className='white-text center-align col s8'>
+                </div>
+                <div className='row'>
+
+                    <div className='col s12 l3 section-wrapper'>
+                        {sections.map((section) => {
+
+                                let link = '#' + section;
+
+                                return (
+                                    <div className='section-link-wrapper'>
+                                        <a href={link}><p>{section}</p></a>
+                                    </div>
+                                )
+                            })}
+                    </div>
+
+                    <div className='col s0 l1 white-text'>
+                        
+                    </div>
+
+                    <div className='col l8 s12' style={{padding: '0'}}>
                         {sections.map((section, index) => {
                             return (
-                                <div>
-                                    <div className='white-text border-round background-black'>
+                                <div className='section-wrapper'>
+                                    <div className='white-text' id={section}>
                                         <h1 className='border-bottom'>{section}</h1>
                                         <p>{texts[index]}</p>
                                     </div>
@@ -25,6 +47,7 @@ const Post = ({ title, date, update, sections, texts }) => {
                             )
                         })}
                     </div>
+                    
                 </div>
             </div>
         </div>

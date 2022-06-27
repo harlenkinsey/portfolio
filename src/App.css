@@ -82,12 +82,14 @@
   border-top: 1px;
   border-top-color: white;
   border-top-style: solid;
+  margin: 0;
 }
 
 .header-border {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: white;
+  margin: 0;
 }
 
 .header-button-initial,
@@ -141,8 +143,16 @@
   padding-bottom: 10px;
 }
 
-.row {
-  margin-bottom: 0px;
+.section-wrapper {
+  text-align: center;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-bottom: 20px !important;
 }
 
 .tag {
@@ -150,11 +160,19 @@
   margin: 5px 5px 0px 0px;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
 ul {
   margin: 0;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 600px) {
 
   .background {
     width: 100%;
@@ -164,6 +182,10 @@ ul {
 
   .card-container {
     width: 85%;
+  }
+
+  .post-container {
+    width: 100%;
   }
 }
 
