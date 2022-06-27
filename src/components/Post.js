@@ -35,12 +35,12 @@ const Post = ({ title, date, update, sections, texts }) => {
                         
                     </div>
 
-                    <div className='col l8 s12' style={{padding: '0'}}>
+                    <div className='col l8 s12 section-wrapper' style={{padding: '0'}}>
                         {sections.map((section, index) => {
                             return (
-                                <div className='section-wrapper'>
+                                <div>
                                     <div className='white-text' id={section}>
-                                        <h1 className='border-bottom'>{section}</h1>
+                                        <h1>{section}</h1>
                                         <p>{texts[index]}</p>
                                     </div>
                                 </div>
