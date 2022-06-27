@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className='row header-border black'>
             <div className='row valign-wrapper'>
-                <div className='col l6 left-align'>
+                <div className='col s6 left-align'>
                     <div className='left-align valign-wrapper'>
                         <li className='header-text'>
                             <h3><span className='highlight'>Blog;</span></h3>
@@ -22,7 +22,7 @@ const Header = () => {
                     </div>
                 </div>
                 
-                <div className='col l6 right-align'>
+                <div className='col s6 right-align'>
                     { width >= 768 ?
 
                     <div>
