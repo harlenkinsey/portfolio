@@ -6,7 +6,7 @@ const Header = () => {
     let width = window.innerWidth;
 
     return (
-        <div className='row header-border black'>
+        <div className='row border-bottom black' style={{position: 'sticky'}}>
             <div className='row valign-wrapper'>
                 <div className='col s6 left-align'>
                     <div className='left-align valign-wrapper'>
