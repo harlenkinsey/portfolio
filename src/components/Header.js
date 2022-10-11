@@ -3,8 +3,6 @@ import Dropdown from './Dropdown';
 
 const Header = () => {
 
-    let width = window.innerWidth;
-
     return (
         <div className='row border-bottom black' style={{position: 'sticky'}}>
             <div className='row valign-wrapper'>
@@ -20,8 +18,6 @@ const Header = () => {
                 </div>
                 
                 <div className='col s6 right-align'>
-                    { width >= 768 ?
-
                     <div>
                         <li className='header-button-initial'>
                             <a href='https://www.linkedin.com/in/harlen-kinsey-9075291b1' target='_blank' rel="noopener noreferrer" className='btn-floating btn-large waves-effect waves-light white'><i className='fab fa-linkedin black'></i></a>
@@ -30,8 +26,6 @@ const Header = () => {
                             <a href='https://github.com/harlenkinsey' target='_blank' rel="noopener noreferrer" className='btn-floating btn-large waves-effect waves-light white'><i className='fab fa-github black'></i></a>
                         </li>
                     </div>
-
-                    : <Dropdown />}
                 </div>
 
             </div>
