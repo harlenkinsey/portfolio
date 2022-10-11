@@ -13,6 +13,12 @@
   padding: 20px;
 }
 
+.border-bottom {
+  border-bottom: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
 .card {
   margin: 50px 0px 0px 0px;
   border-color: white;
@@ -76,7 +82,6 @@
   background-color: white;
   color: black;
   padding: 0px 5px 0px 5px;
-  border-radius: 5px;
 }
 
 .project-card-button {
@@ -116,9 +121,31 @@ ul {
     background-image: url('./images/space-backing.png');
   }
 
+  .blog-button {
+    display: inline-block;
+    padding: 20px;
+  }
+
   .card-container {
     width: 85%;
   }
+
+  .header-button-initial,
+  .header-button-subsequent {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .header-button-subsequent {
+    padding: 10px 10px 10px 0px;
+  }
+
+  .header-text {
+    display: inline-block;
+    font-size: 15pt;
+    padding-bottom: 10px;
+  }
+
 }
 
 @media (min-width: 1000px) {
