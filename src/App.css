@@ -145,16 +145,3 @@ ul {
   }
 
 }
-
-@media (min-width: 1000px) {
-
-  .background {
-    width: 100%;
-    padding: 100px 0px 100px 0px;
-    background-image: url('./images/space-backing.png');
-  }
-
-  .card-container {
-    width: 60%;
-  }
-}
