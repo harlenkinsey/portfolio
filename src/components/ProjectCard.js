@@ -10,8 +10,8 @@ const ProjectCard = ({ title, description, link }) => {
                     <div className='col s8'>
                         <span className='card-title'>{title}</span>
                     </div>
-                    <div className='col s4'>
-                        <a href={link} className='btn-floating btn-large waves-effect waves-light white'><i className='fas fa-rocket black'></i></a>
+                    <div className='col s4' style={{ marginBottom: 10 }}>
+                        <a href={link} className='btn-floating white btn-large'><i className='fas fa-rocket' style={{color: 'black'}}></i></a>
                     </div>
                 </div>
                 <p className='project-card-description'>{description}</p>

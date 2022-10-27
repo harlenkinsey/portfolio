@@ -1,11 +1,18 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+}
+
 .App {
   text-align: center;
 }
 
 .background {
-  width: 100%;
-  padding: 50px 0px;
   background-image: url('./images/space-backing.png');
+  background-size: cover;
 }
 
 .blog-button {
@@ -17,6 +24,10 @@
   border-bottom: 1px;
   border-bottom-color: white;
   border-bottom-style: solid;
+}
+
+.button-floating {
+  background-color: white !important;
 }
 
 .card {
@@ -95,7 +106,7 @@ ul {
   margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
   .background {
     width: 100%;

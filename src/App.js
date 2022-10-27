@@ -26,13 +26,11 @@ function App() {
   });
 
   return (
-    <div>
-      
+    <body className='background'>
       <Header />
       <CardContainer />
-      <Footer />     
-      
-    </div>
+      <Footer />
+    </body>
   );
 }
 
