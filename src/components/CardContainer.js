@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 const CardContainer = () => {
 
     return (
-        <div className='background'>
+        <div className='background valign-wrapper'>
             <div className='row card-container'>
                 <div className='col s12 m6 l4'>
                     <ProjectCard title='Github Finder' description='A full-stack application that uses the GitHub API to search for user profiles.' link='https://githubfinder901237.netlify.app'/>

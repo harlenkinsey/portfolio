@@ -1,9 +1,9 @@
 html,body {
+  display: flex;
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  min-height: 100%;
 }
 
 .App {
@@ -12,7 +12,7 @@ html,body {
 
 .background {
   background-image: url('./images/space-backing.png');
-  background-size: cover;
+  height: 100%;
 }
 
 .blog-button {
@@ -31,7 +31,6 @@ html,body {
 }
 
 .card {
-  margin: 50px 0px 0px 0px;
   border-color: white;
   border-width: 1px;
   border-style: solid;
@@ -41,7 +40,7 @@ html,body {
 
 .card-container {
  width: 65%;
- padding-bottom: 100px;
+ padding: 100px 0;
 }
 
 .footer {

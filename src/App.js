@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CardContainer from './components/CardContainer';
@@ -26,11 +26,11 @@ function App() {
   });
 
   return (
-    <body className='background'>
+    <Fragment>
       <Header />
       <CardContainer />
       <Footer />
-    </body>
+    </Fragment>
   );
 }
 
