@@ -108,9 +108,8 @@ ul {
 @media (max-width: 768px) {
 
   .background {
-    width: 100%;
-    padding: 100px 0px 100px 0px;
     background-image: url('./images/space-backing.png');
+    height: auto;
   }
 
   .blog-button {
