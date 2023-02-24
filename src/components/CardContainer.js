@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 import DonutGif from '../gifs/donut.gif';
-import BlueSpindalGif from '../gifs/blue_spindal.gif';
 import IDKGif from '../gifs/idk.gif';
 import WavesGif from '../gifs/waves.gif';
 
