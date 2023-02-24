@@ -33,12 +33,20 @@ html, body {
   border-width: 1px;
   border-style: solid;
   border-radius: 5px;
-  height: 250px;
+  height: 400px;
 }
 
 .card-container {
  width: 65%;
  padding: 100px 0;
+}
+
+.card-content {
+  height: 140px;
+}
+
+.card-title {
+  padding: 0 0 0 20px !important;
 }
 
 .footer {
@@ -74,22 +82,6 @@ html, body {
   padding: 0px 5px 0px 5px;
 }
 
-.project-card-button {
-  width: 100%;
-  background-color: white;
-}
-
-.project-card-description {
-  padding-top: 25px;
-}
-
-.project-card-header {
-  border-bottom-color: white;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  padding-bottom: 10px;
-}
-
 .row {
   margin-bottom: 0px;
 }
@@ -102,8 +94,33 @@ html, body {
 ul {
   margin: 0;
 }
+@media only screen and (min-width: 0px) and (max-width: 426px) {
 
-@media (max-width: 768px) {
+  .card {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 420px;
+  }  
+  
+  .card-container {
+    width: 85%;
+  }
+
+  .card-content {
+    height: 160px;
+  }
+
+  h3 {
+    font-size: 20pt;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
 
   .background {
     background-image: url('./images/space-backing.png');
@@ -113,14 +130,6 @@ ul {
   .blog-button {
     display: inline-block;
     padding: 10px;
-  }
-
-  .card {
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 5px;
-    height: 200px;
   }
 
   .card-container {
