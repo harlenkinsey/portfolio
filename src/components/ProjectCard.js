@@ -6,8 +6,8 @@ const ProjectCard = ({ title, description, link, gif, credit }) => {
         <div className='card black center'>
             <div className='card-image'>
                 <div>
-                    <a href={credit}>
-                        <img src={gif} height='200px' />
+                    <a href={credit} target="_blank">
+                        <img src={gif} height='200px' alt='' />
                     </a>
                     <span className='card-title'>{title}</span>
                 </div>
@@ -16,7 +16,7 @@ const ProjectCard = ({ title, description, link, gif, credit }) => {
                 <p>{description}</p>
             </div>
             <div className='card-action'>
-                <a href={link}>Explore</a>
+                <a href={link} target="_blank">Explore</a>
             </div>
         </div>
     )
