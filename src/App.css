@@ -33,7 +33,7 @@ html, body {
   border-width: 1px;
   border-style: solid;
   border-radius: 5px;
-  height: 400px;
+  height: 412px;
 }
 
 .card-container {
@@ -94,6 +94,7 @@ html, body {
 ul {
   margin: 0;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 426px) {
 
   .card {
@@ -101,7 +102,7 @@ ul {
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
-    height: 420px;
+    height: 431px;
   }  
   
   .card-container {
@@ -116,9 +117,7 @@ ul {
     font-size: 20pt;
   }
 
-
 }
-
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
 
