@@ -1,6 +1,16 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, link, gif, credit }) => {
+const ProjectCard = ({ title, description, link, gif, credit, privacyPolicy }) => {
+
+    let PP
+    let margin = 0
+
+    if(privacyPolicy){
+        PP = privacyPolicy
+        margin = 24
+    } else {
+        PP = ''
+    }
 
     return (
         <div className='card black center'>
@@ -13,10 +23,11 @@ const ProjectCard = ({ title, description, link, gif, credit }) => {
                 </div>
             </div>
             <div className='card-content white-text'>
-                <p>{description}</p>
+                {description}
             </div>
             <div className='card-action'>
-                <a href={link} target="_blank">Explore</a>
+                <a href={link} target="_blank" style={{marginRight: margin}}>Explore</a>
+                {PP}
             </div>
         </div>
     )
