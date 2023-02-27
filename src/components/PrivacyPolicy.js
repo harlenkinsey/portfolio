@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
                     privacy rights and choices. If you do not agree with our policies and practices, please
                     do not use our Services. If you still have any questions or concerns, please contact
                     us at lonepixelstudios420@gmail.com.
-                    SUMMARY OF KEY POINTS
+                    <h6>SUMMARY OF KEY POINTS</h6>
                     This summary provides key points from our privacy notice, but you can find
                     out more details about any of these topics by using our table of contents below to find the section you are
                     looking for.
@@ -47,36 +47,7 @@ const PrivacyPolicy = () => {
                     We may share information in specific situations and with specific third parties.
                     How do we keep your information safe? We have organizational and technical
                     processes and procedures in place to protect your personal information. However, no
-                    electronic transmission over the internet or information storage technology can be
-                    Custom Branding
-                    Hide “Powered by Termly”
-                    Customize Policy Styl
-                    Theme
-                    Select 'Create New Theme' to edi
-                    To create a custo
-                    upgrade. Pro+ pla
-                    $15/month. View
-                    Dashboard
-                    Consent Management
-                    Policies
-                    Privacy Policy
-                    Cookie Policy
-                    Terms and Conditions
-                    EULA
-                    Return Policy
-                    Disclaimer
-                    Shipping Policy
-                    Acceptable Use Policy
-                    Settings
-                    Sharp (Default)
-                    APPLY THEME
-                    You have surpassed your 1 policy limit. Please upgrade to publish additional policies. Learn More
-                    guaranteed to be 100% secure, so we cannot promise or guarantee that hackers,
-                    cybercriminals, or other unauthorized third parties will not be able to defeat our
-                    security and improperly collect, access, steal, or modify your information.
-                    What are your rights? Depending on where you are located geographically, the
-                    applicable privacy law may mean you have certain rights regarding your personal
-                    information.
+                    electronic transmission over the internet or information storage technology can be.
                     How do you exercise your rights? The easiest way to exercise your rights is by
                     filling out our data subject request form available here, or by contacting us. We will
                     consider and act upon any request in accordance with applicable data protection
