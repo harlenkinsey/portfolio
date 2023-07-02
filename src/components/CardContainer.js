@@ -25,7 +25,7 @@ const CardContainer = () => {
                     <ProjectCard 
                         title='Star Destroyer' 
                         description={<p>A small 2D game built with GDScript and the Godot Engine for Android.</p>}
-                        link='https://play.google.com/store/apps/details?id=com.lonepixel.studios&hl=en_US'
+                        link='https://play.google.com/store/apps/details?id=org.godotengine.stardestroyer&pli=1'
                         gif={DonutGif}
                         credit='https://i.gifer.com/4l81.gif'
                         privacyPolicy={<PrivacyPolicy/>}  
