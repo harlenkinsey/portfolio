@@ -13,11 +13,6 @@ html, body {
   height: auto;
 }
 
-.blog-button {
-  display: inline-block;
-  padding: 20px;
-}
-
 .border-bottom {
   border-bottom: 1px;
   border-bottom-color: white;
@@ -124,11 +119,6 @@ ul {
   .background {
     background-image: url('./images/space-backing.png');
     height: auto;
-  }
-
-  .blog-button {
-    display: inline-block;
-    padding: 10px;
   }
 
   .card-container {
