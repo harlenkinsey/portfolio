@@ -22,10 +22,10 @@ const ProjectCard = ({ title, description, link, gif, credit, privacyPolicy }) =
                     <span className='card-title'>{title}</span>
                 </div>
             </div>
-            <div className='card-content white-text'>
+            <div className='card-content center-content white-text'>
                 {description}
             </div>
-            <div className='card-action'>
+            <div className='card-action center-content'>
                 <a href={link} target="_blank" style={{marginRight: margin}}>Explore</a>
                 {PP}
             </div>
