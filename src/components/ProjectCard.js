@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import StarDestroyerModal from './StarDestroyerModal';
 
 const ProjectCard = ({ title, description, link, gif, credit, privacyPolicy }) => {
 
     let PP
     let margin = 0
+    let target
 
     if(privacyPolicy){
         PP = privacyPolicy
         margin = 24
+        target = ''
     } else {
         PP = ''
+        target = "_blank"
     }
 
     return (
@@ -26,7 +30,7 @@ const ProjectCard = ({ title, description, link, gif, credit, privacyPolicy }) =
                 {description}
             </div>
             <div className='card-action center-content'>
-                <a href={link} target="_blank" style={{marginRight: margin}}>Explore</a>
+                {privacyPolicy ? <StarDestroyerModal/> : <a href={link} target={target} style={{marginRight: margin}}>Explore</a>}
                 {PP}
             </div>
         </div>

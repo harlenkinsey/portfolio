@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import PrivacyPolicy from './PrivacyPolicy';
+import M from 'materialize-css';
 
 import DonutGif from '../gifs/donut.gif';
 import IDKGif from '../gifs/idk.gif';
@@ -25,7 +26,7 @@ const CardContainer = () => {
                     <ProjectCard 
                         title='Star Destroyer' 
                         description={<p>A small 2D game built with GDScript and the Godot Engine for Android.</p>}
-                        link='https://play.google.com/store/apps/details?id=org.godotengine.stardestroyer&pli=1'
+                        link=''
                         gif={DonutGif}
                         credit='https://i.gifer.com/4l81.gif'
                         privacyPolicy={<PrivacyPolicy/>}  

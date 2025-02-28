@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
                     Questions or concerns? Reading this privacy notice will help you understand your
                     privacy rights and choices. If you do not agree with our policies and practices, please
                     do not use our Services. If you still have any questions or concerns, please contact
-                    us at lonepixelstudios420@gmail.com.
+                    us at lonepixelstudio400@gmail.com.
                     <h6>SUMMARY OF KEY POINTS</h6>
                     This summary provides key points from our privacy notice, but you can find
                     out more details about any of these topics by using our table of contents below to find the section you are
@@ -204,7 +204,7 @@ const PrivacyPolicy = () => {
                     personal information conducted in reliance on lawful processing grounds other than
                     consent.
                     If you have questions or comments about your privacy rights, you may email us at
-                    lonepixelstudios420@gmail.com.
+                    lonepixelstudios400@gmail.com.
                     <h6>8. CONTROLS FOR DO-NOT-TRACK FEATURES</h6>
                     Most web browsers and some mobile operating systems and mobile applications
                     include a Do-Not-Track ('DNT') feature or setting you can activate to signal your
@@ -317,7 +317,7 @@ const PrivacyPolicy = () => {
                     How do we use and share your personal information?
                     More information about our data collection and sharing practices can be found in this
                     privacy notice.
-                    You may contact us by email at lonepixelstudios420@gmail.com, or by referring to
+                    You may contact us by email at lonepixelstudios400@gmail.com, or by referring to
                     the contact details at the bottom of this document.
                     If you are using an authorized agent to exercise your right to opt out we may deny a
                     request if the authorized agent does not submit proof that they have been validly
@@ -390,7 +390,7 @@ const PrivacyPolicy = () => {
                     the request as soon as feasibly possible, but no later than fifteen (15) days
                     from the date of the request submission.
                     To exercise these rights, you can contact us by email at
-                    lonepixelstudios420@gmail.com, or by referring to the contact details at the bottom
+                    lonepixelstudios400@gmail.com, or by referring to the contact details at the bottom
                     of this document. If you have a complaint about how we handle your data, we would
                     like to hear from you.
                     <h6>10. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY</h6>
@@ -426,7 +426,7 @@ const PrivacyPolicy = () => {
                     Exercise your rights provided under the Virginia CDPA
                     More information about our data collection and sharing practices can be found in this
                     privacy notice.
-                    You may contact us by email at lonepixelstudios420@gmail.com, by visiting our data
+                    You may contact us by email at lonepixelstudios400@gmail.com, by visiting our data
                     subject request form, or by referring to the contact details at the bottom of this
                     document.
                     If you are using an authorized agent to exercise your rights, we may deny a request if
@@ -445,7 +445,7 @@ const PrivacyPolicy = () => {
                     Right to appeal
                     If we decline to take action regarding your request, we will inform you of our decision
                     and reasoning behind it. If you wish to appeal our decision, please email us at
-                    lonepixelstudios420@gmail.com. Within sixty (60) days of receipt of an appeal, we
+                    lonepixelstudios400@gmail.com. Within sixty (60) days of receipt of an appeal, we
                     will inform you in writing of any action taken or not taken in response to the appeal,
                     including a written explanation of the reasons for the decisions. If your appeal if
                     denied, you may contact the Attorney General to submit a complaint.
@@ -460,7 +460,7 @@ const PrivacyPolicy = () => {
                     to be informed of how we are protecting your information.
                     <h6>12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h6>
                     If you have questions or comments about this notice, you may email us at
-                    lonepixelstudios420@gmail.com
+                    lonepixelstudios400@gmail.com
                     <h6>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE
                     DATA WE COLLECT FROM YOU?</h6>
                     Based on the applicable laws of your country, you may have the right to request
