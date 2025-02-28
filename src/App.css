@@ -87,6 +87,17 @@ html, body {
   padding: 0px 5px 0px 5px;
 }
 
+.highlight-inverse {
+  background-color: black;
+  color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+hr {
+  border-top: 3px solid black;
+  border-radius:  5px;
+}
+
 @keyframes aboutMeBackground {
   0%   {background-color: white;}
   50%  {background-color: black;}
@@ -113,6 +124,10 @@ html, body {
 
 .row {
   margin-bottom: 0px;
+}
+
+.star-destroyer-modal {
+  width: 80%;
 }
 
 .tag {

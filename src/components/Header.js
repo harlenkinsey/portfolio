@@ -11,8 +11,6 @@ const Header = () => {
     }) 
 
     return (
-
-
         <div className='row border-bottom black'>
             <div className='row valign-wrapper'>
                 <div className='col s4 m6 left-align'>
